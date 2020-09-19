@@ -12,5 +12,7 @@ namespace ParcialMiguelTapia1.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<ParcialMiguelTapia1.Models.Country> Countries { get; set; }
     }
 }
