@@ -37,9 +37,7 @@ namespace ParcialMiguelTapia1.Models
         [Required]
         [Range(0, 999)]
         public int callingCodes { get; set; }
-        [Required]
-        [StringLength(35, MinimumLength = 30, ErrorMessage = "Inserte URL Vàlida")]
-        public string flag { get; set; }
+        
         [Required]
         public List<Lenguas> Languages { get; set; }
 
